@@ -1,0 +1,59 @@
+.fcars1{
+          animation-name: fcars1;
+          animation-duration: 10s;
+          animation-delay: 2s;
+          animation-iteration-count: infinite;
+          animation-timing-function: ease-in;
+}
+
+@keyframes fcars1 {
+    from {
+        transform: translate(-1200px);
+    }
+
+    to {
+        transform: translate(1200px);
+    }
+}
+.fcars2{
+    animation-name: fcars2;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes fcars2{
+    from{
+        transform: translateX(-1200px);
+    }
+    to{
+        transform: translateX(1200px);
+    }
+}
+.bcars{
+    animation-name: bcars;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    margin-bottom: 400px;
+}
+@keyframes bcars{
+    from{
+        transform: translateX(1200px);
+    }
+    to{
+        transform: translateX(-1200px);
+    }
+}
+.animation{
+    background-color: #21222E;
+    margin-bottom: 10px;
+}
+.plane{
+    animation-name: plane;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
